@@ -23,6 +23,10 @@ header{
     color: #ecf0f1;
 }
 
+.container h1{
+    margin: 8px;
+}
+
 header h1,
 section h2{
     font-weight: normal;
@@ -85,6 +89,7 @@ section p{
     margin-right: 32px;
     width: 100%;
     max-width: 500px;
+    margin: 8px;
 }
 
 .social-link img{
@@ -109,9 +114,14 @@ section p{
     display: block;
 }
 
+.container h2{
+    margin: 8px;
+}
+
 .contact-method{
     display: flex;
     justify-content: space-between;
+    margin: 8px;
 }
 
 form input,
@@ -151,4 +161,8 @@ footer{
     background-color: #182c61;
     color:  #ecf0f1;
     padding: 16px 0;
+}
+
+footer p{
+    margin: 8px;
 }
